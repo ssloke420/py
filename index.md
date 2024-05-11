@@ -18,3 +18,6 @@ print("I am 12 years old")
 print(12)
 ```
 ------------------------------------------------------------------------------------------------------
+
+## Python Variables
+Variables are storage containers for information. You use the '=' operator to assign a value to one. You can store numbers, strings, and other datatypes in them.
