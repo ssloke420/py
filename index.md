@@ -5,6 +5,8 @@
 ## Table of Contents
 1. [Your First Python Program](https://ssloke420.github.io/py/#your-first-python-program)
 2. [Python Variables](https://ssloke420.github.io/py/#python-variables)
+3. [Python Comments](https://ssloke420.github.io/py/#python-comments)
+4. [Python Data Types](https://ssloke420.github.io/py/#python-data-types)
 ## Your First Python Program
 For your first Python program, we will be creating a hello world program, which is a popular first step in learning a new language.
 Enter this code into your python file:
@@ -71,7 +73,32 @@ age = int("10")
 ```
 Remember, if you try to convert invalidly, you will get an error.
 
+------------------------------------------------------------------------------------------------------------------------------
+## Python Operators
+
+### Python Math Operators
+
+| Operator | What it does | Example |
+| -------- | ------------| -------- |
+|    +     | Addition | add = 1 + 1 |
+|    -     | Subtraction | sub = 10 - 8 |
+|    *     | Multiplication | mult = 6 * 9 |
+|    /     | Division | div = 80 / 10 |
+|    **    |  Exponents | exp = 2 ** 5 |
+|    %     |  Modulus  | mod = 10 % 2  |
+|   //      | Floor Division | fld = 100 // 9 |
+
+To assign a value after performing a operation, you can use any of the above opertaors with an equals sign after it.
+
+```python
+n = 1
+n += 1
+print(n) #Outputs 2
+```
+### Python Boolean Operators
+
 -------------------------------------------------------------------------------------------------------------
+
 
 
 
