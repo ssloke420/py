@@ -7,6 +7,8 @@
 2. [Python Variables](https://ssloke420.github.io/py/#python-variables)
 3. [Python Comments](https://ssloke420.github.io/py/#python-comments)
 4. [Python Data Types](https://ssloke420.github.io/py/#python-data-types)
+5. [Python Operators](https://ssloke420.github.io/py/#python-operators)
+6. [Python Arrays](https://ssloke420.github.io/py/#python-arrays)
 ## Your First Python Program
 For your first Python program, we will be creating a hello world program, which is a popular first step in learning a new language.
 Enter this code into your python file:
@@ -96,9 +98,33 @@ n += 1
 print(n) #Outputs 2
 ```
 ### Python Boolean Operators
+```python
+print(1 > 5) # Outputs False
+print(1 == 1) # Outputs True
+print("Monkey" == "Monkey") # Outputs True
+print(5 >= 5) #Outputs True
+print(1 > 2 and 2 == 2) # Outputs False, because only one condition is met.
+print(1 > 2 or 2  == 2) # Outputs True, because at least one condition is met
+print(not 1 == 1) # Reverts the result to False
+```
+There are many other operators, but these are some of the most basic ones.
 
 -------------------------------------------------------------------------------------------------------------
-
+## Python Arrays
+There are 3 different types of "arrays" (they are not really arrays) in Python. There are lists, sets and tuples.
+Lists are normal ordered values. Tuples are not changeable. Sets can only have one of each value, and are not ordered.
+You can index lists by putting the index you want to access in square brackets after the name of the array variable.
+Remember, the index starts at 0 for the first variable.
+```python
+myList = [1, 2, 3, 4, 720]
+myTuple = (1, 2)
+mySet = {5, 8 , 9 , 7}
+print(myList[2]) #Outputs 3
+print(myTuple[0]) #Outputs 1
+print(mySet[2]) #Outputs a different number everytime
+print(myTuple[2]) #Outputs an error
+```
+-------------------------------------------------------------------------------------------------------------------------------
 
 
 
