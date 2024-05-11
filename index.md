@@ -2,7 +2,7 @@
 
 [Install Python Here](https://www.python.org/downloads/)
 
-##Table of Contents
+## Table of Contents
 1. [Your First Python Program](https://ssloke420.github.io/py/#your-first-python-program)
 2. [Python Variables](https://ssloke420.github.io/py/#python-variables)
 ## Your First Python Program
@@ -40,3 +40,38 @@ Billy
 Notice that we do not use quotes when using a variable name.
 
 -------------------------------------------------------------------------------------------------------------
+
+## Python Comments
+Comments are text in Python that the computer ignores. Comments are defined by a #.
+```python
+# The computer ignores me.
+print("This text is not ignored") #This is also ignored
+```
+
+--------------------------------------------------------------------------------------------------------------
+
+## Python Data Types
+
+There are many data types in Python. The most common ones are floating point values, integers, booleans, and strings.
+```python
+myFloat = 3.14 #Decimal Values
+myInt = 1207 #Integer Values
+myBool = True #True or False
+myStr = "Bob" #Text
+```
+### Data Type Conversion
+
+You can convert types where applicable.
+
+```python
+pi = float("3.14") #This works.
+pi = float("Three point one four.") #This does not work.
+truth = bool("True")
+age = int("10")
+```
+Remember, if you try to convert invalidly, you will get an error.
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
