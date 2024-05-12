@@ -125,6 +125,22 @@ print(mySet[2]) #Outputs a different number everytime
 print(myTuple[2]) #Outputs an error
 ```
 -------------------------------------------------------------------------------------------------------------------------------
+## Python User Input
+You can get user input by using the `input()` function stored in a variable.
+```python
+myName = input("Enter your name: ")
+print(myName) #Outputs whatever the user typed in.
+```
 
+-----------------------------------------------------------------------------------------------------------------------------------
+## Python Conditionals
+The most basic Python conditional is an if statement. The code inside the statement is executed if the condition returns true.
+```python
+myAge = 19
+if age > 18:
+  print("You can vote!")
+```
+
+----------------------------------------------------------------------------------------------------------------------
 
 
