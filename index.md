@@ -9,6 +9,8 @@
 4. [Python Data Types](https://ssloke420.github.io/py/#python-data-types)
 5. [Python Operators](https://ssloke420.github.io/py/#python-operators)
 6. [Python Arrays](https://ssloke420.github.io/py/#python-arrays)
+7. [Python User Input](https://ssloke420.github.io/py/#python-user-input)
+8. [Python Conditionals](https://ssloke420.github.io/py/#python-user-input)
 ## Your First Python Program
 For your first Python program, we will be creating a hello world program, which is a popular first step in learning a new language.
 Enter this code into your python file:
