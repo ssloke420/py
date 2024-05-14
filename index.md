@@ -142,7 +142,25 @@ myAge = 19
 if age > 18:
   print("You can vote!")
 ```
+The next conditional is an else statement. Code inside the else statement will execute if the if statement is false.
+```python
+myAge = 12
+if age > 17:
+	print("You can vote!") #This code will not execute.
+else:
+	print("You can not vote.") #This code will execute.
+```
+The third and final conditional is a elif, or else-if. This will test a new condition if the above if statement and/or elif statements are all false.
+```python
+myAge = 17
+if age > 17:
+	print("You can vote!") #This code will not execute.
+elif age = 17:
+  print("Almost there!") #This code will execute since the first statement was false, but this one is true.
+else:
+	print("You can not vote.") #This code will not execute
 
+```
 ----------------------------------------------------------------------------------------------------------------------
 
 
